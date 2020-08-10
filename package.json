@@ -1,6 +1,6 @@
 {
   "name": "notes",
-  "version": "1.0.0",
+  "version": "0.0.1",
   "description": "## Project: Notesy",
   "main": "notes.js",
   "scripts": {
@@ -12,7 +12,7 @@
   },
   "keywords": [],
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/davee-401-advanced-javascript/notes/issues"
   },
