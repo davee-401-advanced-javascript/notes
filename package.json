@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/davee-401-advanced-javascript/notes/issues"
   },
-  "homepage": "https://github.com/davee-401-advanced-javascript/notes#readme"
+  "homepage": "https://github.com/davee-401-advanced-javascript/notes#readme",
+  "dependencies": {
+    "minimist": "^1.2.5"
+  }
 }
