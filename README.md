@@ -23,6 +23,10 @@ i.e.
 #### How to initialize/run your application (where applicable)
 
 - e.g. `npm start`
+- clone repository
+- do an npm install
+- in terminal make sure you're inside repository
+- type node notes.js followed by commands
 
 #### How to use your library (where applicable)
 
@@ -35,3 +39,5 @@ i.e.
 #### UML
 
 Link to an image of the UML for your application and response to events
+
+![Lab1-UMl](images/Class1-UML.jpg)
