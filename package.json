@@ -18,6 +18,7 @@
   },
   "homepage": "https://github.com/davee-401-advanced-javascript/notes#readme",
   "dependencies": {
+    "jest": "^26.4.0",
     "minimist": "^1.2.5"
   }
 }
