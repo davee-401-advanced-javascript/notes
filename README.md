@@ -6,10 +6,10 @@
 
 ### Links and Resources
 
-- [submission PR- Lab1 PR](https://github.com/davee-401-advanced-javascript/notes/pull/1)
-- [ci/cd](http://xyz.com) (GitHub Actions)
+- [Lab 2 Pull Request](https://github.com/davee-401-advanced-javascript/notes/pull/2)
+<!-- - [ci/cd](http://xyz.com) (GitHub Actions)
 - [back-end server url](http://xyz.com) (when applicable)
-- [front-end application](http://xyz.com) (when applicable)
+- [front-end application](http://xyz.com) (when applicable) -->
 
 ### Setup
 
