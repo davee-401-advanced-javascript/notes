@@ -1,4 +1,4 @@
-# LAB - Class 01
+# LAB - Class 02
 
 ## Project: Notesy
 
@@ -6,7 +6,7 @@
 
 ### Links and Resources
 
-- [submission PR- Lab1 PR](https://github.com/davee-401-advanced-javascript/notes/pull/1)
+- [submission PR- Lab1 PR](https://github.com/davee-401-advanced-javascript/notes/pull/2)
 - [ci/cd](http://xyz.com) (GitHub Actions)
 - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable)
