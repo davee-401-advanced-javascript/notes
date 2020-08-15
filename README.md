@@ -7,6 +7,8 @@
 ### Links and Resources
 
 - [Lab 2 Pull Request](https://github.com/davee-401-advanced-javascript/notes/pull/2)
+- [Lab 3 Pull Request](https://github.com/davee-401-advanced-javascript/notes/pull/3)
+
 - [ci/cd](https://github.com/davee-401-advanced-javascript/notes/actions) (GitHub Actions)
 <!-- - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->
