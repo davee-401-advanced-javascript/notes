@@ -8,8 +8,8 @@ const Notes = require('../lib/notes.js');
 
 describe('Notes library', () => {
 
-  it('make sure test is linked up', () => {
+  it('Proof of Life Test', () => {
     expect(true).toBeTruthy();
   });
-  
+
 });
