@@ -54,7 +54,7 @@ describe('input library', () => {
     });
 
     let noDescription = new Input();
-    console.log('noDescription: ', noDescription);
+    // console.log('noDescription: ', noDescription);
     expect(noDescription.valid()).toStrictEqual(false);
   });
 });
