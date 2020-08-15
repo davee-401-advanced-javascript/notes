@@ -12,3 +12,10 @@ const Input = require('../lib/input.js');
 // else 
 // return false
 
+describe('input library', () => {
+
+  it('make sure test is linked up', () => {
+    expect(true).toBeTruthy();
+  });
+  
+});
