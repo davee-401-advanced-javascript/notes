@@ -12,8 +12,8 @@ describe('Notes library', () => {
 
   it('Should NOT console.log message if inputs are bad', () => {
     const fakeInput = { action: undefined, payload: 'should not work' };
-    const valid = new Notes(fakeInput);
-    valid.execute();
+    const notValid = new Notes(fakeInput);
+    notValid.execute();
     expect(console.log).not.toHaveBeenCalled();
   });
 
