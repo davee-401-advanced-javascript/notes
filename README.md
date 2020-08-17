@@ -15,20 +15,30 @@
 
 ### Setup
 
-#### `.env` requirements (where applicable)
-
 <!-- i.e.
-
 - `PORT` - Port Number
 - `MONGODB_URI` - URL to the running mongo instance/db -->
+
+- Make sure Mongo is installed on your computer and working.
+- Clone note Repository onto local computer
+- CD Into Repository
+- do an `npm install` in the command Line
+- Create a DB inside Mongo called "notesyDB"
+  - Enter mongo by typing "mongo" in command line(MAC USERS)
+  - Type `use notesyDB`. This will create a DB called notesyDB
+- Create a collection called 'noteCollection'
+  - Enter `db.createCollection('noteCollection')`
+
+#### `.env` requirements (where applicable)
+
+- Create .env file and enter the following code to connect database
+  - `MONGODB_URI = 'mongodb://localhost:27017/notesyDB'`
 
 #### How to initialize/run your application (where applicable)
 
 <!-- - e.g. `npm start` -->
 
-- clone repository
-- do an npm install
-- in terminal make sure you're inside repository
+- CD into repository
 - type node notes.js followed by commands
 
 #### How to use your library (where applicable)
