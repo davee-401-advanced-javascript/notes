@@ -8,7 +8,6 @@
 
 - [Lab 2 Pull Request](https://github.com/davee-401-advanced-javascript/notes/pull/2)
 - [Lab 3 Pull Request](https://github.com/davee-401-advanced-javascript/notes/pull/3)
-
 - [ci/cd](https://github.com/davee-401-advanced-javascript/notes/actions) (GitHub Actions)
 <!-- - [back-end server url](http://xyz.com) (when applicable)
 - [front-end application](http://xyz.com) (when applicable) -->
@@ -20,18 +19,18 @@
 - `MONGODB_URI` - URL to the running mongo instance/db -->
 
 - Make sure Mongo is installed on your computer and working.
-- Clone note Repository onto local computer
-- CD Into Repository
+- Clone this Repository on to your local computer
+- CD into this Repository
 - do an `npm install` in the command Line
 - Create a DB inside Mongo called "notesyDB"
-  - Enter mongo by typing "mongo" in command line(MAC USERS)
+  - Get into mongo by typing "mongo" in command line(MAC USERS)
   - Type `use notesyDB`. This will create a DB called notesyDB
 - Create a collection called 'noteCollection'
   - Enter `db.createCollection('noteCollection')`
 
 #### `.env` requirements (where applicable)
 
-- Create .env file and enter the following code to connect database
+- Create .env file and enter the following code to connect database(MAC USERS)
   - `MONGODB_URI = 'mongodb://localhost:27017/notesyDB'`
 
 #### How to initialize/run your application (where applicable)
