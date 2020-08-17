@@ -22,25 +22,32 @@
 - Clone this Repository on to your local computer
 - CD into this Repository
 - do an `npm install` in the command Line
-- Create a DB inside Mongo called "notesyDB"
-  - Get into mongo by typing "mongo" in command line(MAC USERS)
-  - Type `use notesyDB`. This will create a DB called notesyDB
-- Create a collection called 'noteCollection'
-  - Enter `db.createCollection('noteCollection')`
 
-#### `.env` requirements (where applicable)
+#### `.env` Requirements
 
-- Create .env file and enter the following code to connect database(MAC USERS)
+- Create .env file and enter the following code to connect database (for MAC USERS)
   - `MONGODB_URI = 'mongodb://localhost:27017/notesyDB'`
 
-#### How to initialize/run your application (where applicable)
+#### How to initialize/run this application
 
 <!-- - e.g. `npm start` -->
 
 - CD into repository
-- type node notes.js followed by commands
+- Will need to create a database inside Mongo called "notesyDB"
+  - Get into mongo by typing "mongo" in command line (for MAC USERS)
+  - Type `use notesyDB`. This will create a DB called notesyDB
+- Create a collection called 'noteCollection'
+  - Enter `db.createCollection('noteCollection')`
 
-#### How to use your library (where applicable)
+#### How to use this Application
+
+- type node index.js followed by commands.
+- valid commands are: --add -a --delete -d --list -l followed by description using quotation marks.
+- Example:
+  - `node index.js --add "pickup milk" --category "grocery"`
+  - `node index.js -a "drop billy at soccer practice" --category "kids"`
+  - `node index.js --list`
+  - `node notes.js --delete 5eab650143bfc84e595b8eaa`
 
 #### Tests
 
