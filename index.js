@@ -1,5 +1,7 @@
 'use strict';
 
+const mongoose = require('mongoose');
+
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 
@@ -9,4 +11,4 @@ if (input.valid()) {
   const note = new Notes(input);
   note.execute();
 } 
-process.exit();
+

@@ -35,7 +35,7 @@
 - CD into repository
 - Will need to create a database inside Mongo called "notesyDB"
   - Get into mongo by typing "mongo" in command line (for MAC USERS)
-  - Type `use notesyDB`. This will create a DB called notesyDB
+  - Create a DB called notesyDB by entering `use notesyDB`.
 - Create a collection called 'noteCollection'
   - Enter `db.createCollection('noteCollection')`
 
