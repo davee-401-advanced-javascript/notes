@@ -21,12 +21,12 @@
 - Make sure Mongo is installed on your computer and working.
 - Clone this Repository on to your local computer
 - CD into this Repository
-- do an `npm install` in the command Line
+- Do an `npm install` in the command Line
 
 #### `.env` Requirements
 
-- Create .env file and enter the following code to connect database (for MAC USERS)
-  - `MONGODB_URI = 'mongodb://localhost:27017/notesyDB'`
+- Create .env file and enter the following code to connect database (for MAC USERS):
+- `MONGODB_URI = 'mongodb://localhost:27017/notesyDB'`
 
 #### How to initialize/run this application
 
@@ -41,8 +41,8 @@
 
 #### How to use this Application
 
-- type node index.js followed by commands.
-- valid commands are: --add -a --delete -d --list -l followed by description using quotation marks.
+- In terminal: type node index.js followed by commands.
+- Valid commands are: --add -a --delete -d --list -l followed by description using quotation marks.
 - Example:
   - `node index.js --add "pickup milk" --category "grocery"`
   - `node index.js -a "drop billy at soccer practice" --category "kids"`
@@ -57,8 +57,8 @@
 
 To run test:
 
-- cd into your repo
-- in the command line enter `npm test`
+- CD into your repo
+- In the command line enter: `npm test`
 
 #### UML
 
