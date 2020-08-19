@@ -1,9 +1,5 @@
 'use strict';
 
-require('dotenv').config();
-const mongoose = require('mongoose');
-const NotesData = require('../lib/model/notes-schema.js');
-
 const Notes = require('../lib/notes.js');
 
 describe('Notes library', () => {
