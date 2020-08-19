@@ -18,7 +18,7 @@
 - `PORT` - Port Number
 - `MONGODB_URI` - URL to the running mongo instance/db -->
 
-- Make sure Mongo is installed on your computer and working.
+- Make sure node and mongo is installed on your computer and working.
 - Clone this Repository on to your local computer
 - CD into this Repository
 - Do an `npm install` in the command Line
