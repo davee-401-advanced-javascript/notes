@@ -35,6 +35,7 @@ describe('Notes library', () => {
   it('Should console.log message if inputs are valid', () => {
     const fakeInput = {action: 'add', payload: 'add should work'};
     const valid = new Notes(fakeInput);
+    // console.log('this is valid: ', valid);
     valid.execute();
     expect(console.log).toHaveBeenCalled();
   });
