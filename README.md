@@ -35,7 +35,6 @@
 - CD into repository
 - Will need to create a Database inside Mongo called "notesyDB"
 - Get into mongo by typing "mongo" in command line (for MAC USERS)
-- Create a DB called notesyDB by entering: `use notesyDB`.
 
 #### How to use this Application
 
