@@ -1,5 +1,14 @@
 'use strict';
 
+require('dotenv').config();
+const mongoose = require('mongoose');
+const MONGODB_URI = process.env.MONGODB_URI;
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+  useFindAndModify: false,
+});
+
 const Input = require('./lib/input.js');
 const Notes = require('./lib/notes.js');
 

@@ -2,7 +2,11 @@
 
 require('dotenv').config();
 const mongoose = require('mongoose');
-const NotesData = require('../lib/model/notes-schema.js');
+const MONGODB_URI = process.env.MONGODB_URI;
+mongoose.connect(MONGODB_URI, {
+  useNewUrlParser: true,
+  useUnifiedTopology: true,
+});
 
 const Notes = require('../lib/notes.js');
 
@@ -31,6 +35,7 @@ describe('Notes library', () => {
   it('Should console.log message if inputs are valid', () => {
     const fakeInput = {action: 'add', payload: 'add should work'};
     const valid = new Notes(fakeInput);
+    // console.log('this is valid: ', valid);
     valid.execute();
     expect(console.log).toHaveBeenCalled();
   });
