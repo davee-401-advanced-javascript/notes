@@ -1,12 +1,14 @@
 'use strict';
 
-require('dotenv').config();
-const mongoose = require('mongoose');
-const MONGODB_URI = process.env.MONGODB_URI;
-mongoose.connect(MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// require('dotenv').config();
+// const mongoose = require('mongoose');
+// const MONGODB_URI = process.env.MONGODB_URI;
+// mongoose.connect(MONGODB_URI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
+
+require('@code-fellows/supergoose');
 
 const Notes = require('../lib/notes.js');
 
