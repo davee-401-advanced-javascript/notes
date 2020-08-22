@@ -17,7 +17,7 @@ const input = new Input();
 
 if (input.valid()) {
   const note = new Notes(input);
-  note.execute();
+  note.execute().then(mongoose.disconnect);
 } else {
   process.exit(9);
 }
