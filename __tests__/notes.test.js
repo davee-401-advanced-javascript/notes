@@ -42,6 +42,15 @@ describe('Notes library', () => {
     expect(console.log).toHaveBeenCalled();
   });
 
-  
+});
 
+describe('Notes Collection', () => {
+  it('Can add note to database', () => {
+    let obj = {
+      text: 'testing add',
+      category: 'first',
+    };
+
+
+  });
 });
