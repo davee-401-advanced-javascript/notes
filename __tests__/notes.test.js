@@ -1,12 +1,14 @@
 'use strict';
 
-require('dotenv').config();
-const mongoose = require('mongoose');
-const MONGODB_URI = process.env.MONGODB_URI;
-mongoose.connect(MONGODB_URI, {
-  useNewUrlParser: true,
-  useUnifiedTopology: true,
-});
+// require('dotenv').config();
+// const mongoose = require('mongoose');
+// const MONGODB_URI = process.env.MONGODB_URI;
+// mongoose.connect(MONGODB_URI, {
+//   useNewUrlParser: true,
+//   useUnifiedTopology: true,
+// });
+
+require('@code-fellows/supergoose');
 
 const Notes = require('../lib/notes.js');
 
@@ -40,4 +42,15 @@ describe('Notes library', () => {
     expect(console.log).toHaveBeenCalled();
   });
 
+});
+
+describe('Notes Collection', () => {
+  it('Can add note to database', () => {
+    let obj = {
+      text: 'testing add',
+      category: 'first',
+    };
+
+
+  });
 });

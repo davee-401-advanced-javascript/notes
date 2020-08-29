@@ -20,6 +20,7 @@ describe('input library', () => {
 
   it('Given valid inputs the valid() method should return true', () => {
     let validInput = new Input();
+    console.log('validInput :', validInput);
     expect(validInput.valid()).toStrictEqual(true);
   });
 
